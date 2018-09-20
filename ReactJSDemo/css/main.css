@@ -1,0 +1,82 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  
+  .body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .dl-horizontal dt {
+    white-space: normal;
+  }
+  
+  input,
+  select,
+  textarea {
+    max-width: 280px;
+  }
+  
+  .box {
+      border-width: 2px;
+      border-style: solid;
+      padding: 0 20px;
+      margin: 0 6px;
+      max-width: 400px;
+    }
+
+.root 
+{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #777;
+    padding: 0 20px;
+    margin: 0 6px;
+    max-width: 400px;
+}
+  
+.text 
+{
+    color: #777;
+    font-size: 24px;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 600;
+}
+
+.paragraph
+{
+    background: #272424;
+    color: #fff;
+    padding: 2px 4px;
+    border-radius: 2px;
+    margin: 4px 0;
+}
+
+.genre
+{
+    border-radius: 4px;
+    color: #000;
+    border:1px solid #edebec;
+    padding: 3px 6px;
+    display: inline-block;
+}
+.movies
+{
+    margin: 8px;
+}
+    .movies > table
+    {
+        width: 100%;
+        text-align: center;    
+    }
+    .movies > table th
+    {
+        text-transform: uppercase;
+    }
+
+.heading {
+    font-size: 24px;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 600;
+    }

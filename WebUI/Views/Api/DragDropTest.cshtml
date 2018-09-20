@@ -1,0 +1,40 @@
+@{
+    ViewBag.Title = "Drag Drop Demo";
+}
+
+@section head{
+    <style type="text/css">
+        .file-container 
+        {
+            border: 1px solid #999;
+            margin: 10px auto;
+            width: 800px;
+            padding: 12px;
+        }
+            .file-drop {
+                border: 1px dashed #999;
+                height: 400px;
+                background-color: #edebec;
+                position: relative;
+                top: -1px;
+            }
+            .dragHiLight
+            {
+                background-color: #999;
+            }
+    </style>
+    <script type="text/javascript" language="JavaScript">
+        var reactdemo = {};
+        reactdemo.dragdrop = {
+            BaseUrl: '@Url.Content("~/")'
+        };
+    </script>
+    <script src="@Url.LatestContent("~/Scripts/dragdropdemo.js")" type="text/javascript"></script>
+    <script type="text/javascript" language="JavaScript">
+        $(document).ready(reactdemo.dragdrop.init);
+    </script>
+}
+
+<div class="file-container">
+    <div id="fileDropTarget" class="file-drop"></div>
+</div>
