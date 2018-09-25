@@ -1,7 +1,0 @@
-C:\Users\predrag.milosavljevi\source\CodeFirstDemo\WCFDemo\bin\Debug\WCFDemo.dll.config
-C:\Users\predrag.milosavljevi\source\CodeFirstDemo\WCFDemo\bin\Debug\WCFDemo.dll
-C:\Users\predrag.milosavljevi\source\CodeFirstDemo\WCFDemo\bin\Debug\WCFDemo.pdb
-C:\Users\predrag.milosavljevi\source\CodeFirstDemo\WCFDemo\obj\Debug\WCFDemo.csprojResolveAssemblyReference.cache
-C:\Users\predrag.milosavljevi\source\CodeFirstDemo\WCFDemo\obj\Debug\WCFDemo.csproj.CoreCompileInputs.cache
-C:\Users\predrag.milosavljevi\source\CodeFirstDemo\WCFDemo\obj\Debug\WCFDemo.dll
-C:\Users\predrag.milosavljevi\source\CodeFirstDemo\WCFDemo\obj\Debug\WCFDemo.pdb
