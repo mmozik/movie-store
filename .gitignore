@@ -1,5 +1,6 @@
-**/bin
-**.suo
+bin
+obj
+.vs
 
 # Logs
 logs
@@ -398,9 +399,4 @@ ASALocalRun/
 /Ecos.favdoc
 *.orig
 *.favdoc
-Common/ManagerInterface/IProjectManager_REMOTE_43404.cs
-Common/ManagerInterface/IProjectManager_LOCAL_43404.cs
-Common/ManagerInterface/IProjectManager_BASE_43404.cs
-Common/ManagerInterface/IProjectManager_BACKUP_43404.cs
-/Web/ReactFrontend/npm-debug.log.2938395490
 *.patch
