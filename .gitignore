@@ -1,5 +1,5 @@
-WCFDemo\
 bin
+obj
 .vs
 node_modules
 packages
@@ -7,3 +7,4 @@ Debug
 *.log
 *.tmp
 *.txt
+*.suo

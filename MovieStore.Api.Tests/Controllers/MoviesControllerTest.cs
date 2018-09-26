@@ -6,20 +6,19 @@ using MovieStore.Api.Controllers;
 namespace MovieStore.Api.Tests.Controllers
 {
     [TestClass]
-    public class HomeControllerTest
+    public class MoviesControllerTest
     {
         [TestMethod]
         public void Index()
         {
             // Arrange
-            HomeController controller = new HomeController();
+            MoviesController controller = new MoviesController();
 
             // Act
             ViewResult result = controller.Index() as ViewResult;
 
             // Assert
             Assert.IsNotNull(result);
-            Assert.AreEqual("Home Page", result.ViewBag.Title);
         }
     }
 }
