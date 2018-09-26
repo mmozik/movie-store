@@ -4,7 +4,7 @@ module.exports = {
     entry: './main.js',
 	
     output: {
-      path: _path.resolve(__dirname, '../WebUI/Scripts'),
+      path: _path.resolve(__dirname, '../MovieStore.Api/Scripts'),
       filename: 'gui.js'
     },
 	
