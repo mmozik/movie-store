@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "MovieStore.Gui"
+		},
+		{
+			"path": "MovieStore.Api.Node"
+		}
+	],
+	"settings": {}
+}

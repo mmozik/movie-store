@@ -4,7 +4,7 @@ import { globalAgent } from "https";
 class DragDrop extends Component {
     constructor(props) {
         super(props);
-        
+
         this.state = {
             haveSupport: true,
             files: [],
@@ -52,7 +52,7 @@ class DragDrop extends Component {
                             const fr = new FileReader();
                             fr.onload = (e1) => {
                                 this.setState({
-                                    files: this.state.files.map(t => ({...t, result: id === t.id ? e1.target.result : t.result})),
+                                    files: this.state.files.map(t => ({ ...t, result: id === t.id ? e1.target.result : t.result })),
                                 });
                             };
                             fr.readAsDataURL(f);
@@ -75,9 +75,9 @@ class DragDrop extends Component {
             // Great success! All the File APIs are supported.
             document.addEventListener("dragover", this.globalDrag);
             document.addEventListener("drop", this.globalDrag);
-            this.setState({haveSupport: true});
+            this.setState({ haveSupport: true });
         } else {
-            this.setState({haveSupport: false});
+            this.setState({ haveSupport: false });
         }
     }
     componentWillUnmount() {
@@ -115,7 +115,7 @@ class DragDrop extends Component {
                             onDragLeave={this.onOut}
                             onDrop={this.onDrop}
                         >
-                        drag/drop files here
+                            drag/drop files here
                         </div>
                     </div>
                     <div className="col-md-offset-3" />
@@ -123,8 +123,8 @@ class DragDrop extends Component {
                 {this.state.files.length > 0 && (
                     <div className="row">
                         {this.state.files.map(tf => (
-                            <div className="col-md-3 col-xs-12" key={tf.id} style={{border: "1px solid #999", padding: "6px"}}>
-                                {tf.result ? (<img src={tf.result} title={tf.name} style={{width: "100%", height: "120px"}} />) : (<span title={tf.name}>Loading...</span>)}
+                            <div className="col-md-3 col-xs-12" key={tf.id} style={{ border: "1px solid #999", padding: "6px" }}>
+                                {tf.result ? (<img src={tf.result} title={tf.name} style={{ width: "100%", height: "120px" }} />) : (<span title={tf.name}>Loading...</span>)}
                             </div>
                         ))}
                     </div>

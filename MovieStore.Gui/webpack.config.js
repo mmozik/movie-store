@@ -4,17 +4,17 @@ module.exports = {
     entry: './main.js',
 	
     output: {
-      path: _path.resolve(__dirname, '../MovieStore.Api/Scripts'),
+      path: _path.resolve(__dirname, '../MovieStore.Api.Node/wwwroot'),
       filename: 'gui.js'
     },
 	
-    devServer: {
-        inline: true,
-        port: 7000,
-        after: function(app) {
-            app.use("/*", (req,res) => res.sendFile(_path.join(__dirname, 'index.html')));
-        }
-    },
+    // devServer: {
+    //     inline: true,
+    //     port: 7000,
+    //     after: function(app) {
+    //         app.use("/*", (req,res) => res.sendFile(_path.join(__dirname, 'index.html')));
+    //     }
+    // },
 	
     module: {
         rules: [
