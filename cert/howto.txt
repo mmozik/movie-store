@@ -1,0 +1,11 @@
+* Double-click iis_express.pfx
+* Select Local machine, press Next
+* Press Next
+* Password: test, press Next
+* Select "Place all certificates in the following store", browse and select Trusted Root Certification Authorities
+* Press Next
+* Press Finish
+
+* Double-click iis_express.pfx again
+* Select Local machine
+* Leave everything else as default and keep pressing Next and then Finish
