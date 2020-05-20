@@ -1,0 +1,37 @@
+{
+    "express": {
+      "desc": "IIS Express",
+      "url": "https://localhost:44302/",
+      "certConfig": "iisexpress"
+    },
+    "express-default-cert": {
+      "desc": "IIS Express",
+      "url": "https://localhost:44302/",
+      "root": "/"
+    },
+    "express-standalone": {
+      "desc": "IIS Express - standalone component development",
+      "url": "https://localhost:44302/",    
+      "standalone": true
+    },
+    "local": {
+      "desc": "Local IIS",
+      "url": "https://localhost/EnvirUI/"
+    },
+    "standalone": {
+      "desc": "Standalone component development",
+      "standalone": true,
+      "serveStatic": true,
+      "mainFile": "standalone.html"
+    },
+    "self": {
+      "desc": "Standalone with Dummy API",    
+      "certConfig": "iisexpress",    
+      "serveStatic": true,
+      "dummyApi": {
+        "delay": 1000
+      },
+      "mainFile": "self.html"
+    }
+  }
+  

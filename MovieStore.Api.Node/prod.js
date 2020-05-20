@@ -34,6 +34,6 @@ getCert = options => {
     }
 };
 
-https.createServer(getCert("self"), app).listen(7443, function() {
-    console.log("Listening on https://localhost:7443/");
+https.createServer(getCert("self"), app).listen(443, function() {
+    console.log("Listening on https://localhost:443/");
 });
